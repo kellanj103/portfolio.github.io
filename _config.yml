@@ -1,0 +1,52 @@
+title: "Kellan Jones — Cybersecurity Portfolio"
+description: "Red & Purple Teaming • DFIR • Windows Internals"
+url: "https://<your-username>.github.io"
+baseurl: ""  # keep empty for user.github.io root
+theme: null
+markdown: kramdown
+highlighter: rouge
+permalink: /blog/:title/
+timezone: America/New_York
+
+# Collections (for structured content)
+collections:
+  achievements:
+    output: true
+    permalink: /achievements/:name/
+  conferences:
+    output: true
+    permalink: /conferences/:name/
+  ctfs:
+    output: true
+    permalink: /ctfs/:name/
+  talks:
+    output: true
+    permalink: /talks/:name/
+
+# Navigation (edit here to add/remove sections)
+nav:
+  - name: Home
+    url: /
+  - name: Blog
+    url: /blog/
+  - name: Achievements
+    url: /achievements/
+  - name: Conferences
+    url: /conferences/
+  - name: CTFs
+    url: /ctfs/
+  - name: Talks
+    url: /talks/
+  - name: About
+    url: /about/
+
+# Social links (rendered in footer)
+social:
+  github: "https://github.com/<your-username>"
+  linkedin: "https://www.linkedin.com/in/kellan-jones"
+  email: "mailto:kellanj103@gmail.com"
+
+# Build options
+exclude: ["README.md", "Gemfile", "Gemfile.lock"]
+sass:
+  style: compressed
