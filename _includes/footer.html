@@ -1,0 +1,8 @@
+<footer class="footer">
+  <p>© {{ "now" | date: "%Y" }} {{ site.title }} • Built with Jekyll & GitHub Pages</p>
+  <p>
+    {% if site.social.github %}<a href="{{ site.social.github }}">GitHub</a>{% endif %}
+    {% if site.social.linkedin %} • <a href="{{ site.social.linkedin }}">LinkedIn</a>{% endif %}
+    {% if site.social.email %} • <a href="{{ site.social.email }}">Email</a>{% endif %}
+  </p>
+</footer>
